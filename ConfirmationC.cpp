@@ -9,16 +9,16 @@ using namespace std;
 int main()
 {
     
-    string a;
+    string a; //Creating variable string
     
     cout << "Add: (So) to confirm: ";
-    cin >> a;
+    cin >> a; //Add input
     
-    if (a == "So"){
-        cout << "confirmed!";
+    if (a == "So"){ //Add conditional
+        cout << "confirmed!";  //Print in output if is a correct
     }
     else{
-        cout << "Incorrect confirmation";
+        cout << "Incorrect confirmation"; //If confirmation is a null
     }
 
  return 0;
